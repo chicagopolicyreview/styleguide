@@ -1,8 +1,17 @@
+---
+output:
+  html_document: default
+  pdf_document: default
+---
 # CPR Data Viz Style Guide
 
 Design specifications for CPR data visualization products and related code
 
-TODO: insert visual example
+TODO:
+
+- [ ] Insert visual example
+- [ ] Secondary colors for cateogorical data
+- [ ] Gradient color palette - define endpoints
 
 # Sizing 
 
@@ -11,11 +20,14 @@ TODO: insert visual example
 | Width       | Minimum 600px, max display width 800px  | Height determined by 4:3 aspect ratio
 | Margins     | Min 5px around all elements             | Variable by location
 | CPR Logo    | Top right, 100px, full opacity          | Consider right-aligning logo text
+| Gridlines   | 1px, #DDDDDD, major ticks only          | Keep to only one axis unless strictly necessary (e.g. with scatterplots)
 
 
 # Typography
 
 Major text elements that reader should see first, by order of importance, are: title > axes titles > legend titles > subtitle > all other text. Importance here is signalled by size and color, such that less-important information doesn't clutter up the immediate visual impact of the chart. 
+
+In other words, the reader should be able to get the following four questions with minimal effort:
   
   1.  What is the main takeaway from this chart?
   2.  What data am I looking at?
@@ -41,12 +53,13 @@ Caption       | Open Sans     | 8px   | _italic_  | #FFFFFF | Title Case
 
 Color         | Hex       | RGB               | CMYK  
 ---           | ---       | ---               | ---
-<span style="color:#661B16;>**Maroon**</span>        | #661B16   | rgb(102,27,22)    | tbd
-Chargoal Grey | #DDDDDD   | rgb(221,221,221)  | tbd
+Maroon        | #661B16   | rgb(102,27,22)    | CMYK(0.0000,0.7353,0.7843,0.6000)
+Light Grey    | #DDDDDD   | rgb(221,221,221)  | CMYK(0.0000,0.0000,0.0000,0.1333)
+Charcoal Grey | #3F3F3F   | rgb(63,63,63)     | CMYK(0.0000,0.0000,0.0000,0.7529)
 
 ## Secondary Colors
 
-TBD
+Red           | #B21F15
 
 ## Gradients and Choropleths 
 
