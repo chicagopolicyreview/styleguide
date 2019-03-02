@@ -1,9 +1,4 @@
----
-output:
-  html_document: default
-  pdf_document: default
----
-# CPR Data Viz Style Guide
+# CPR Data Visualization Style Guide
 
 Design specifications for CPR data visualization products and related code
 
@@ -12,6 +7,7 @@ TODO:
 - [ ] Insert visual example
 - [ ] Secondary colors for cateogorical data
 - [ ] Gradient color palette - define endpoints
+- [ ] Submission guidelines for code
 
 # Sizing 
 
@@ -60,7 +56,16 @@ Charcoal Grey | #3F3F3F   | rgb(63,63,63)     | CMYK(0.0000,0.0000,0.0000,0.7529
 ## Secondary Colors
 
 Red           | #B21F15
+---           | ---
+
 
 ## Gradients and Choropleths 
 
 TBD
+
+
+# Specifying Themes in R Code
+
+Submission guidelines - your theme should be easy to replace with CPR's.
+
+Theme in R Notebook or specified in different file?
